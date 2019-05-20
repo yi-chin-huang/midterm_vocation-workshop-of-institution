@@ -30,11 +30,6 @@ class RegisterForm extends Component {
     
     }, {});
     
-    getDataFromDb = () => {
-        fetch("http://localhost:3001/api/getData")
-          .then(data => data.json())
-          .then(res => this.setState({ data: res.data }));
-      };
 
     handleSubmit = async e =>{
 
@@ -42,7 +37,8 @@ class RegisterForm extends Component {
         const form = e.target;
         // const f2 = new FormData(form)
         const formJson = this.formToJSON(form.elements);
-        await fetch('http://localhost:3001/api/postRegister', {
+        // await fetch('http://localhost:3001/api/postRegister', {
+        await fetch('/api/postRegister', {
             method: 'POST',
             body: JSON.stringify(formJson),
             headers: {

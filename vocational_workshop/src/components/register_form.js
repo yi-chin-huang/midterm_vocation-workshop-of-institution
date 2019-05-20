@@ -38,7 +38,7 @@ class RegisterForm extends Component {
         // const f2 = new FormData(form)
         const formJson = this.formToJSON(form.elements);
         // await fetch('http://localhost:3001/api/postRegister', {
-        await fetch('/api/postRegister', {
+        await fetch('http://localhost:3001/api/postRegister', {
             method: 'POST',
             body: JSON.stringify(formJson),
             headers: {

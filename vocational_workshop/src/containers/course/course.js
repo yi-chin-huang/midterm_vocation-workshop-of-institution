@@ -39,7 +39,7 @@ class Course extends Component {
 
     getCourseInfo = async () => {
         // await fetch("http://localhost:3001/api/getCourses")
-        await fetch("http://localhost:3001/api/getCourses")
+        await fetch("/api/getCourses")
             .then(data => data.json())
             .then(res => this.setState({ data: res.data }));
         let typeR = null, typeA = null, typeC = null, typeE = null, typeI = null, typeS = null;

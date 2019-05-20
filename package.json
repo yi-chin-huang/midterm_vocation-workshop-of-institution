@@ -17,8 +17,5 @@
     "nodemon": "^1.19.0",
     "react-player": "^1.11.0",
     "react-router-dom": "^5.0.0"
-  },
-
-
+  }
 }
-

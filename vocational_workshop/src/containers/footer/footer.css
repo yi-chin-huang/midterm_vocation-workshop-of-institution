@@ -1,0 +1,23 @@
+.text_box{
+    background-color: #272E7A;
+    font-family: FZYaoti;
+    font-weight: 100;
+    font-size: 0.9em;
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+
+.man{
+    z-index:30;
+    position:relative;
+    bottom:0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -0.8%;
+    width: 7%;
+}
+
+.Sman{
+    float: right;
+}

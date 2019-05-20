@@ -1,0 +1,12 @@
+.filter_home{
+    filter: opacity(0.3);
+    padding-top: 0%;
+}
+.title_home{
+    z-index: 40;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+}
+

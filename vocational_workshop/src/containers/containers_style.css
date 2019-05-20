@@ -1,0 +1,55 @@
+.main_section{
+    padding-top: 8%;
+}
+
+.title{
+    width: 50%;
+}
+
+@font-face {
+    font-family: FZYaoti;
+    src: url(http://d.xiazaiziti.com/en_fonts/fonts/f/FZYaoTi.ttf);
+}
+
+.title{
+    max-width: 20%;
+    margin-right: 1%;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background-color: #fffaf1;
+    padding-top: 3%;
+    /* margin-left: 2%; */
+    
+}
+
+.navButton{
+    font-family: FZYaoti;
+    font-weight: 100;
+    font-size: 1em;
+    color: white;
+    width: 7em;
+    height: 3em;
+    border-radius: 0.5em;
+    border: none;
+    margin: 1.2%;
+    max-width: 10%;
+}
+#A {background-color: #272E7A;}
+
+#B {background-color: #F29A25;}
+
+#C {background-color: #FFC200;}
+
+#D {background-color: #6B78D1;}
+
+#E {background-color: #FF6E79;}
+
+#F {background-color: #FC90AF;}
+
+a:hover button{
+    cursor: pointer;
+}

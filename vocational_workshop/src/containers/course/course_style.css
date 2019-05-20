@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwTeXFangSong.css);
+.course_text{
+    margin-top: 4%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.course_text h2{
+    font-family: FZYaoti, cwTeXFangSong, cwtexming;
+    color: #272E7A;
+    letter-spacing: 0.1em;
+    /* text-align: center; */
+    line-height: 1.5em;
+}
+
+.course_text h3{
+    font-family: FZYaoti, sans-serif;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 0.15em;
+    line-height: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.course_text h4{
+    font-weight: 500;
+    text-align: center;
+    color: #272E7A;
+    line-height: 1.8em;
+
+}
+
+.course_text h5{
+    font-weight: 500;
+    color: #272E7A;
+    line-height: 1.8em;
+
+}
+
+.course_text p{
+    margin-left: 3%;
+    margin-right: 2%;
+    line-height: 2em;
+    font-weight: 300;
+}
+
+.course_text a{
+    color: #6B78D1;
+}
+
+
+
+.pic_square:hover .course_intro{ 
+    visibility: visible;
+    transition-duration: 1s;
+
+}

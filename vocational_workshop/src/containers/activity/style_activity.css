@@ -1,0 +1,34 @@
+.activity{
+    padding-top: 5%;
+
+}
+
+.activity_text, .activity_imgs{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.activity_text h3{
+    font-family: FZYaoti;
+    color: #272E7A;
+    line-height: 2em;
+
+}
+
+.activity_text h5{
+    color: rgb(92, 92, 92);
+    line-height: 2em;
+
+}
+.bean{
+    width: 1.5em;
+}
+
+.activity_imgs img{
+    width: 31%;
+    margin: 1%;
+}
+
+

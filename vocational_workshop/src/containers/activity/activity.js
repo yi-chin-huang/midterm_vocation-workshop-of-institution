@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import Carousel2 from '../../components/carousel2';
 import './style_activity.css';
 import bean from'../../images/bean.png';
-import pa from'../../images/activity_photos/左上.JPG';
-import pb from'../../images/activity_photos/左下.JPG';
-import pc from'../../images/activity_photos/中上.JPG';
-import pd from'../../images/activity_photos/中下.JPG';
-import pe from'../../images/activity_photos/右上.JPG';
-import pf from'../../images/activity_photos/右下.JPG';
+import pa from'../../images/activity_photos/左上.jpg';
+import pb from'../../images/activity_photos/左下.jpg';
+import pc from'../../images/activity_photos/中上.jpg';
+import pd from'../../images/activity_photos/中下.jpg';
+import pe from'../../images/activity_photos/右上.jpg';
+import pf from'../../images/activity_photos/右下.jpg';
 class Activity extends Component {
     constructor(props) {
         super(props); 

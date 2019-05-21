@@ -9,13 +9,9 @@ import pd from'../../images/activity_photos/中下.jpg';
 import pe from'../../images/activity_photos/右上.jpg';
 import pf from'../../images/activity_photos/右下.jpg';
 class Activity extends Component {
-    constructor(props) {
-        super(props); 
-    }
-
+ 
     componentDidMount() {
         window.scrollTo(0,0);
-    
     }
     
     render() 

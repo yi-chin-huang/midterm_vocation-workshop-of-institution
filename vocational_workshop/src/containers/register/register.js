@@ -22,16 +22,11 @@ class Register extends Component {
         return(
 
             <div className = "register_text"> 
-                {/* <button onClick = {this.getRegister}>sads</button> 
-                <span id = 'button_tp'><Button BGcolor = '#F29A25' 
-                text = {`已報名`} onClick = {this.getRegister()}
-                width = '6em' height = '2.5em' fontSize = '1.1em'/></span> */}
-          
                 <h2>
                     2019｜夏季 直覺ｘ職掘－職業體驗工作坊 <br/>
                     「跟隨自己的直覺，挖掘你的職業潛能」
                 </h2>
-                <h3>🌈 工作坊簡介</h3>
+                <h3><span role="img" aria-label="rainbow">🌈 </span>工作坊簡介</h3>
                 <p>
                     「透過舉辦職業體驗營，讓國中生的選擇更自由。」<br/>
                     直覺×職掘從二年前開始，在寒暑假期間，為國中生舉辦職涯探索的工作坊，
@@ -55,7 +50,7 @@ class Register extends Component {
                     在未來的某日能夠引發他們去相信，原來我還可以做這樣的事情，
                     願意去探索自我多元的可能。<br/>
                 </p>
-                <h3>🌈 工作坊特色</h3>
+                <h3><span role="img" aria-label="rainbow">🌈 </span> 工作坊特色</h3>
                 <h4>
                     涵蓋多元領域，全面探索興趣<br/>
                     強調實作體驗，打造體驗教育<br/>
@@ -70,14 +65,14 @@ class Register extends Component {
                     <a href = 'https://www.youtube.com/watch?v=FRnerTDehXs' target="_blank" rel="noopener noreferrer" >2018 春季工作坊 活動記錄 1 </a> <br/>
                     <a href = 'https://www.youtube.com/watch?v=QlBQQOAPqCI&t=119s' target="_blank" rel="noopener noreferrer" >2018 春季工作坊 活動記錄 2 </a> <br/>
                 </p>
-                <h3>✨ 職掘簡介</h3>
+                <h3><span role="img" aria-label="star">✨ </span>職掘簡介</h3>
                 <p>
                     主辦單位：台大職掘服務社 <br/>
                     我們是一群關心教育的大學生，希望透過多元領域的實作課程，
                     協助國中生在選擇人生方向前，具備充足的資訊，重拾自由選擇的自信。 <br/>
                 </p>
                 
-                <h3>💡 報名流程</h3>
+                <h3><span role="img" aria-label="bulb">💡 </span>報名流程</h3>
                 <p>
                     第一步－確認報名資格：12～15歲的國中生、即將進入國中的準國中生。 <br/>
                     第二步－網路表單填寫：即日開始至05／20（一）23:59為止。 <br/>
@@ -89,24 +84,24 @@ class Register extends Component {
                     繳納期限：收到報名成功通知信後5日內，依照郵件中匯款帳號繳交，「未繳視同放棄」。
                 </p>
     
-                <h3>💡 錄取方式</h3>
+                <h3><span role="img" aria-label="bulb">💡 </span>錄取方式</h3>
                 <p>
                     完成表單填寫及繳費流程！ <br/>
                     若人數超過40人（場次分別計），將以隨機抽籤方式篩選名額。
                 </p>
-                <h3>💡 其他叮嚀</h3>
+                <h3><span role="img" aria-label="bulb">💡 </span>其他叮嚀</h3>
                 <p>
                     午餐一併由主辦單位當日統計訂購； <br/>
                     詳細課程資訊將於六月初寄發信件； <br/>
                     有特殊需求請於表單送出前的［有話想說］欄位說明。
                 </p>
 
-                <h3>💡 活動場次</h3>
+                <h3><span role="img" aria-label="bulb">💡 </span>活動場次</h3>
                 <p>
                     台北場：2019年07月02日（二）～ 07月06日（六）08:30～16:30<br/>
                     台南場：2019年07月09日（二）～ 07月13日（六）08:30～16:30
                 </p>
-                <h3>💡 開始報名</h3>
+                <h3><span role="img" aria-label="bulb">💡 </span>開始報名</h3>
                 <span id = 'button_tp'><Button BGcolor = '#F29A25' link = 'register/taipei' text = {`台北場`} width = '6em' height = '2.5em' fontSize = '1.1em'/></span>
                 <span id = 'button_tn'><Button BGcolor = '#FF6E79' link = 'register/tainan' text = {`台南場`} width = '6em' height = '2.5em' fontSize = '1.1em'/></span>
 

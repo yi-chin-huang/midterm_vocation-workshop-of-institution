@@ -24,70 +24,70 @@ class Carousel extends Component {
     render(){
         return(
 
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src={p1} class="d-block w-100" alt=""/>
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="3000">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src={p1} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p2} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p2} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p3} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p3} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p4} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p4} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p5} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p5} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p6} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p6} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p7} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p7} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p8} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p8} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p9} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p9} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p10} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p10} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p11} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p11} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p12} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p12} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p13} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p13} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p14} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p14} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p15} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p15} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p16} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p16} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p17} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p17} className="d-block w-100" alt=""/>
                     </div>
-                    <div class="carousel-item">
-                        <img src={p18} class="d-block w-100" alt=""/>
+                    <div className="carousel-item">
+                        <img src={p18} className="d-block w-100" alt=""/>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
                 </a>
             </div>
 

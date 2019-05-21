@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import { NavLink, Switch, Route, Redirect } from "react-router-dom";
+import {Switch} from "react-router-dom";
 import Navbar from './navbar';
-import title from '../images/title.png'
 import './containers_style.css'
 class Header extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() 
     {
       return (
         <header>
-            <Navbar page = {this.props.page}/>
+            <Navbar/>
 
             <Switch>
               {/* <Route exact path="/" component={introHeader} />

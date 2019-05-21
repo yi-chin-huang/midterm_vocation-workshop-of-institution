@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import './course_style.css'
-import PicSquare from '../../components/pic_square'
-import BlueSquare from '../../components/blue_square'
-import CourseRow from '../../components/course_row'
-import p2 from '../../images/home_photos/2.JPG'
-import arrow from '../../images/arrow.png'
+import './course_style.css';
+import CourseRow from '../../components/course_row';
 class Course extends Component {
     constructor(props) {
         super(props); 

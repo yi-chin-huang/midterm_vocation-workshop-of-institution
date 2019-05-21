@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { NavLink, Switch, Route, Redirect } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import './components_style.css'
-import FZYaoti from '../FZYaoTi.ttf'
-
 
 class Button extends Component {
-    constructor(props) {
-        super(props);   //page, BGcolor, link, text
-    }
+    // constructor(props) {
+    //     super(props);   //page, BGcolor, link, text
+    // }
 
     getStyle = () => {
         // let opacity = '0.3';
@@ -19,7 +17,7 @@ class Button extends Component {
         //     opacity = '1'
         // }
         const butStyle = {
-            fontFamily: 'FZYaoti, cwTeXFangSong, cwTeXMing',
+            fontFamily: 'FZYaoti',
             fontWeight: '100',
             fontSize: fontSize,
             color: 'white',

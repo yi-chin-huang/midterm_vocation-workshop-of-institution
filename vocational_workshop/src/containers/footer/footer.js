@@ -7,8 +7,8 @@ class Footer extends Component {
     {
       return (
 		<footer>
-             <img src = {bean_man} className = "man Bman"/>
-            <img src = {shovel_man} className = "man Sman"/>
+             <img src = {bean_man} className = "man Bman" alt = ""/>
+            <img src = {shovel_man} className = "man Sman" alt = ""/>
             <div className = "text_box">
                 <p>特別感謝 財團法人林柏壽文教基金會/林本源中華文化教育基金會 / 財團法人新北市大觀書社</p>
                 <p>聯絡方式 臉書「直覺x職掘-職業體驗工作坊」/ 電子郵件: vocationworkshop@gmail.com</p>

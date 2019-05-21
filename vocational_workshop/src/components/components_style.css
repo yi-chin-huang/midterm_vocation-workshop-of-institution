@@ -3,10 +3,6 @@
     src: url(http://d.xiazaiziti.com/en_fonts/fonts/f/FZYaoTi.ttf);
 }
 
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
-
-@import url(https://fonts.googleapis.com/earlyaccess/cwTeXFangSong.css);
-
 
 .blue_square{
     background-color: #272E7A;
@@ -30,7 +26,7 @@
     transform: translateY(30%); */
 }
 .pic_square{
-    background-image: url('../images/home_photos/1.JPG');
+    background-image: url('../images/home_photos/1.jpg');
     background-size: auto 100%;
     width: 25vw;
     height: 25vw;
@@ -109,4 +105,48 @@
     margin: auto;
 }
 
+.timeline{
+    margin-bottom: 15%;
+}
+.beanline{
+    border-top-style: solid;
+    border-top-width: 0.2em;
+    border-top-color: #6B78D1;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
 
+
+.review_bean{
+    position: absolute;
+    width: 5em;
+    display: inline-block;
+    margin-top: -5%;
+
+}
+
+.review_bean1{
+    margin-left: 15%;
+    color: #6B78D1;
+}
+.review_bean2{
+    margin-left: 30%;
+    color: #272E7A;
+}
+.review_bean3{
+    margin-left: 45%;
+    color: #F29A25;
+}
+.review_bean4{
+    margin-left: 60%;
+    color: #FF6E79;
+}
+
+.bean_text{
+    margin-top: 0%;
+    z-index: 20;
+    font-family: 'FZYaoTi';
+    font-size: 1.8em;
+ 
+}

@@ -4,7 +4,6 @@ import './style_home.css'
 import title_home from '../../images/title.png'
 import ReactPlayer from 'react-player'
 
-
 class Home extends Component {
     constructor(props) {
         super(props);  
@@ -30,7 +29,7 @@ class Home extends Component {
     {
         return (
             <div>
-                <img src = {title_home} className = "title_home"/>
+                <img src = {title_home} className = "title_home" alt = ""/>
                 <div className = "filter_home">
                     <Carousel/>  
                 </div>

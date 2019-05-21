@@ -9,7 +9,7 @@ class PicSquare extends Component {
     
     setStyle = () =>{
         if (this.state.hover){
-            return({ backgroundImage: 'linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),'+`url(${this.props.pic})` })
+            return({ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(${this.props.pic})` })
         }
         else{
             return({ backgroundImage: `url(${this.props.pic})` })

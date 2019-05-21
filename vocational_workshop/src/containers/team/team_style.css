@@ -1,0 +1,55 @@
+.team{
+    padding-top: 5%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom: 5%;
+}
+.member{
+    display: inline-block;
+    margin: 3%;
+}
+.member h3{
+    text-align: center;
+    font-family: 'FZYaoTi';
+    color: #272E7A;
+}
+.member_pic{
+    
+    background-size: auto 100%;
+    width: 21vw;
+    height: 21vw;
+    display: inline-block;
+    /* margin-left: 5%; */
+    margin-bottom: 1%;
+    position: relative;
+
+}
+
+#member_1{
+    background-image: url('../../images/team_photos/a.jpg');
+}
+#member_2{
+    background-image: url('../../images/team_photos/b.jpg');
+}
+#member_3{
+    background-image: url('../../images/team_photos/c.jpg');
+    background-position:right;
+}
+#member_4{
+    background-image: url('../../images/team_photos/d.jpg');
+    background-position:left;
+}
+#member_5{
+    background-image: url('../../images/team_photos/e.jpg');
+    background-position:right;
+}
+#member_6{
+    background-image: url('../../images/shovel_man.png');
+    background-position:center;
+    width: 15vw;
+    margin-left: 15%;
+}
+
+.team_pic{
+    width: 80vw;
+}

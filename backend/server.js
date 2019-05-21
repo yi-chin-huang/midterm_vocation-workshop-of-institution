@@ -6,9 +6,10 @@ const logger = require("morgan");
 const Register = require("./registerSchema");
 const Course = require("./courseSchema");
 
-const API_PORT = 3001;
+const API_PORT = process.env.PORT || 3001;
 const app = express();
 app.use(cors());
+app.use(express.static(path.join(__dirname, "../vocational_workshop/build")));
 const router = express.Router();
 
 // this is our MongoDB database

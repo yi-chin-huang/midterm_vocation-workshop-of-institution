@@ -24,7 +24,7 @@ class Carousel extends Component {
     render(){
         return(
 
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="3000">
+            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="4000">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={p1} className="d-block w-100" alt=""/>

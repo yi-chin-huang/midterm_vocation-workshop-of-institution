@@ -53,6 +53,5 @@
 
 .pic_square:hover .course_intro{ 
     visibility: visible;
-    transition-duration: 1s;
 
 }

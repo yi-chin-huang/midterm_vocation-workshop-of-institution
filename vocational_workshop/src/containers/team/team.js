@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './team_style.css';
 import p1 from '../../images/team_photos/all.jpg';
 class Review extends Component {
-    constructor(props) {
-        super(props);   
-    }
-
     componentDidMount() {
         window.scrollTo(0,0);
     }

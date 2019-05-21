@@ -5,10 +5,6 @@ import Timeline from '../../components/timeline';
 import schedule from '../../images/review/2018 春.jpg'
 import schedule2 from '../../images/review/2018 春／課程介紹.jpg'
 class Review extends Component {
-    constructor(props) {
-        super(props);   
-    }
-
     componentDidMount() {
         window.scrollTo(0,0);
     }

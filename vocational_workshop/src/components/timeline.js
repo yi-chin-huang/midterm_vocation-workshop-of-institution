@@ -4,9 +4,6 @@ import bean from '../images/bean.png';
 import beanMan from '../images/bean_man.png';
 import {NavLink} from "react-router-dom";
 class Timeline extends Component {
-    constructor(props) {
-        super(props);   
-    }
 
     getImg = s =>{
         if(this.props.season === s){

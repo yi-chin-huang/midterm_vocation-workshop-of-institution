@@ -6,9 +6,6 @@ import schedule from '../../images/review/2019 春／台北場A班.jpg'
 import schedule2 from '../../images/review/2019 春／台北場B班.jpg'
 import schedule3 from '../../images/review/2019 春／馬祖場.png'
 class Review extends Component {
-    constructor(props) {
-        super(props);   
-    }
 
     componentDidMount() {
         window.scrollTo(0,0);

@@ -4,9 +4,6 @@ import ReactPlayer from 'react-player';
 import Timeline from '../../components/timeline';
 import schedule from '../../images/review/2017 夏.jpg'
 class Review extends Component {
-    constructor(props) {
-        super(props);   
-    }
 
     componentDidMount() {
         window.scrollTo(0,0);

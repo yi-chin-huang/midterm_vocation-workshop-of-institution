@@ -22,7 +22,7 @@ class CourseRow extends Component {
             <div className = "course_row">         
                 <BlueSquare en = {this.props.en} ch = {this.props.ch}/>
                 {this.state.courses.map((item, key) => 
-                    <PicSquare course_name = {item.name}  course_season = {item.season} course_teacher = {item.teacher} key={item.id}
+                    <PicSquare course_name = {item.name}  course_season = {item.season} course_teacher = {item.teacher} key={key}
                     course_intro = {item.text} pic = {require(`../images/course_photos/${item.type}/${item.img}.jpg`)}/>)
                 }
             </div>

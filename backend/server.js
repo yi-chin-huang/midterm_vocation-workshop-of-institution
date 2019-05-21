@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const Register = require("./registerSchema");
 const Course = require("./courseSchema");
-
+const path = require("path");
 const API_PORT = process.env.PORT || 3001;
 const app = express();
 app.use(cors());

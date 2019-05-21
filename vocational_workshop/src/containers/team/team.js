@@ -30,7 +30,7 @@ class Review extends Component {
                 </span>
                 <span className = "member" >
                     <div className = "member_pic"id = "member_5"></div>
-                    <h3>行銷<br/>林潤干</h3> 
+                    <h3>行銷<br/>林潤千</h3> 
                 </span>
                 <span className = "member" >
                     <div className = "member_pic"id = "member_6"></div>

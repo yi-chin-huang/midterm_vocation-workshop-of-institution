@@ -6,7 +6,7 @@
 }
 
 .course_text h2{
-    font-family: FZYaoti, cwTeXFangSong, cwtexming;
+    font-family: 'FZYaoti';
     color: #272E7A;
     letter-spacing: 0.1em;
     /* text-align: center; */
@@ -14,7 +14,7 @@
 }
 
 .course_text h3{
-    font-family: FZYaoti, sans-serif;
+    font-family: 'FZYaoti', sans-serif;
     color: grey;
     font-weight: 100;
     letter-spacing: 0.15em;

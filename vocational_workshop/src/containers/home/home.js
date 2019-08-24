@@ -33,11 +33,11 @@ class Home extends Component {
                 <div className = "filter_home">
                     <Carousel/>  
                 </div>
-                <div className = "laptop-wrapper">
+                <div className = "laptop-wrapper px-4 d-flex justify-content-center">
                     <div id = "border">
                         <ReactPlayer url='https://youtu.be/1KJ8vPuW36s' 
                         playing = {this.state.play} 
-                        width={window.innerWidth} height={window.innerWidth * 0.56}/> 
+                        width={window.innerWidth*0.9} height={window.innerWidth * 0.5}/> 
                     </div>
                 </div>
 

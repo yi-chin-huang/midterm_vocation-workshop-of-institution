@@ -1,13 +1,45 @@
+@font-face {
+    font-family: FZYaoti;
+    src: url(http://d.xiazaiziti.com/en_fonts/fonts/f/FZYaoTi.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
 .filter_home{
     filter: opacity(0.3);
     padding-top: 0%;
 }
 .title_home{
-    z-index: 40;
+    z-index: 1;
     position: absolute;
     top: 50%;
     left: 25%;
     width: 50%;
 }
-.ytplayer{
+
+.yaoti{
+	font-family: FZYaoti;
+}
+
+.text-container{
+	padding-right: 15%;
+	padding-left: 15%; 
+}
+
+.quote{
+	font-family: Noto Sans TC;
+	padding-left: 4%;
+	border-left: 4px solid #272E7A;
+	text-align: justify;
+}
+.left{
+	width: 48%;
+} 
+.right{
+	margin-left: 2%;
+	width: 48%;
+}
+
+.right img{
+	border-radius: 10px;
+	border: 2px solid #272E7A;
 }

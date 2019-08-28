@@ -11,6 +11,10 @@ p{
     src: url(http://d.xiazaiziti.com/en_fonts/fonts/f/FZYaoTi.ttf);
 }
 
+.main_section{
+    padding-top: 6.5%;
+}
+
 .title{
     width: 15%;
     max-width: 15%;
@@ -19,10 +23,12 @@ p{
 }
 
 .navbar{
-    /*position: fixed;*/
+    z-index: 2;
+    position: fixed;
     width: 100%;
     background-color: #fffaf1;
     padding-top: 1%;
+    transition: .5s;
     /* margin-left: 2%; */
 }
 
@@ -38,6 +44,14 @@ p{
     margin-left: 3.5%;
     /* margin: 1.2%; */
     max-width: 10%;
+    transition: .2s;
+}
+
+.navButton:hover{
+    transform: scale(1.1);
+} 
+.navButton:active{
+    transform: scale(0.95);
 }
 #A {background-color: #272E7A;}
 

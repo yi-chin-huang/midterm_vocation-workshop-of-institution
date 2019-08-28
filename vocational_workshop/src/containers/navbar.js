@@ -21,7 +21,7 @@ class Navbar extends Component {
     render(){
         return(
             <div className="navbar">
-                <ul>
+                <ul className="mb-0 py-2">
                     <span className ="title">
                         <NavLink to = '/'><img src = {title} className="title" alt = ""></img></NavLink>
                     </span>

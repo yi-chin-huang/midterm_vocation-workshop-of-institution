@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery'
 import Carousel from '../../components/carousel';
 import './style_home.css'
 import title_home from '../../images/title.png'
@@ -43,7 +42,7 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className = "text-center text-container">
-                    <h1 className='text-primary yaoti'>在尼泊爾偏鄉，韓國人種植咖啡 <br/>中國人種植茶葉，臺灣人種植教育</h1>
+                    <h1 className='text-primary yaoti'>我們相信 <br/>每個孩子都有自己選擇職涯的權利</h1>
                     <div className="d-flex py-3">
                         <div className="d-flex align-items-center left">
                             <blockquote className="d-block quote">我們是臺灣的教育團隊——直覺職掘，「透過舉辦職業體驗營，讓國中生的選擇更自由。」

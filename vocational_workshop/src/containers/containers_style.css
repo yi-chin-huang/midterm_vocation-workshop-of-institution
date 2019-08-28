@@ -23,7 +23,7 @@ p{
 }
 
 .navbar{
-    z-index: 2;
+    z-index: 100;
     position: fixed;
     width: 100%;
     background-color: #fffaf1;

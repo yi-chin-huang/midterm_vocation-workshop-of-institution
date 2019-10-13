@@ -15,7 +15,7 @@ class Review extends Component {
                 <Timeline season = "2017-summer"/>
                 <ReactPlayer url=' https://youtu.be/VUWtulqNbZA' 
                         playing = {true}
-                        width={window.innerWidth * 0.8} height={window.innerWidth * 0.8 * 0.56}/> 
+                        width={window.innerWidth * 0.7} height={window.innerWidth * 0.39}/> 
                 <img src = {schedule} className = "schedule" alt = ""/>
             </div>
         )

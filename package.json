@@ -11,6 +11,7 @@
     "biuld-client": "cd vocational_workshop && npm run build && cd ..",
     "heroku-postbuild": "npm install && cd vocational_workshop && npm install && npm run build"
   },
+  "homepage":"https://yourusername.github.io/repository-name",
   "keywords": [],
   "author": "",
   "license": "ISC",

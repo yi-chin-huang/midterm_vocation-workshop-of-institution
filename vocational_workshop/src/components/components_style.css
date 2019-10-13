@@ -106,7 +106,8 @@
 }
 
 .timeline{
-    margin-bottom: 15%;
+    margin-bottom: 9%;
+    align-items: center;
 }
 .beanline{
     border-top-style: solid;
@@ -114,24 +115,25 @@
     border-top-color: #6B78D1;
     display: block;
     overflow: hidden;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 }
-
 
 .review_bean{
     position: absolute;
-    width: 5em;
+    width: 4em;
     display: inline-block;
-    margin-top: -5%;
-
+    margin-top: -3%;
+}
+.review_bean:hover{
+    transform: scale(1.1);
 }
 
 .review_bean1{
-    margin-left: 15%;
+    margin-left: 25%;
     color: #6B78D1;
 }
 .review_bean2{
-    margin-left: 30%;
+    margin-left: 35%;
     color: #272E7A;
 }
 .review_bean3{
@@ -139,7 +141,7 @@
     color: #F29A25;
 }
 .review_bean4{
-    margin-left: 60%;
+    margin-left: 55%;
     color: #FF6E79;
 }
 
@@ -147,6 +149,5 @@
     margin-top: 0%;
     z-index: 20;
     font-family: 'FZYaoTi';
-    font-size: 1.8em;
- 
+    font-size: 1.4em;
 }

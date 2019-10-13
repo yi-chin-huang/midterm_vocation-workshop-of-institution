@@ -68,7 +68,7 @@ class Course extends Component {
 
             <div className = "course_text">            
                 <h2>涵蓋多元領域・全面探索興趣</h2>
-                <h3>包含Holland的六型RIASECR職群</h3> <br/>
+                <h3>包含Holland的六型RIASEC職群</h3> <br/>
                 {/* <div className = "course_row">         
                     <BlueSquare en = 'Realistic' ch = '實做型'/>
                     {this.state.typeR.map((item, key) => 

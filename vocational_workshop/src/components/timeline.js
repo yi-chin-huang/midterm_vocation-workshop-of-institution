@@ -25,10 +25,10 @@ class Timeline extends Component {
                     <NavLink to="/review/2019-spring"><img src = {this.getImg('2019-spring')}  className = "review_bean review_bean4" alt = ""/></NavLink>
                 </div>
                 <div>
-                    <span className = "review_bean bean_text review_bean1" >2017 春</span>
-                    <span className = "review_bean bean_text review_bean2" >2018 春</span>
-                    <span className = "review_bean bean_text review_bean3" >2018 夏</span>
-                    <span className = "review_bean bean_text review_bean4" >2019 春</span>
+                    <NavLink to="/review/2017-summer"><span className = "review_bean bean_text review_bean1" >2017 春</span></NavLink>
+                    <NavLink to="/review/2018-spring"><span className = "review_bean bean_text review_bean2" >2018 春</span></NavLink>
+                    <NavLink to="/review/2018-summer"><span className = "review_bean bean_text review_bean3" >2018 夏</span></NavLink>             
+                    <NavLink to="/review/2019-spring"><span className = "review_bean bean_text review_bean4" >2019 春</span></NavLink>
                 </div>
             </div>
         )

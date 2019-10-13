@@ -1,5 +1,5 @@
 .team{
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left:10%;
     padding-right:10%;
     padding-bottom: 5%;
@@ -40,16 +40,14 @@
     background-position:left;
 }
 #member_5{
-    background-image: url('../../images/team_photos/e.jpg');
-    background-position:right;
+    background-image: url('../../images/team_photos/h.jpg');
+    background-position:50%;
 }
 #member_6{
-    background-image: url('../../images/shovel_man.png');
-    background-position:center;
-    width: 15vw;
-    margin-left: 15%;
+    background-image: url('../../images/team_photos/f.jpg');
+    background-position: 30%;
 }
 
 .team_pic{
-    width: 80vw;
+    width: 80%;
 }

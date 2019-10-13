@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './team_style.css';
-import p1 from '../../images/team_photos/all.jpg';
+import p1 from '../../images/team_photos/all_alter.jpg';
 class Review extends Component {
     componentDidMount() {
         window.scrollTo(0,0);
@@ -34,10 +34,11 @@ class Review extends Component {
                 </span>
                 <span className = "member" >
                     <div className = "member_pic"id = "member_6"></div>
-                    <br/><br/>
+                    <h3>行銷<br/>吳佳軒</h3>
                 </span>
-
-                <img src = {p1} alt = "" className = "team_pic"/>
+                <div className='d-flex justify-content-center'>
+                    <img src = {p1} alt = "" className = "team_pic"/>
+                </div>
             </div>            
         )
     }

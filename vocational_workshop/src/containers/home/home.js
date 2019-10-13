@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Carousel from '../../components/carousel';
 import './style_home.css'
 import title_home from '../../images/title.png'
-import img1 from '../../images/home_photos/19.jpg'
+import img1 from '../../images/home_photos/20.jpg'
+import img2 from "../../images/home_photos/5.jpg"
 import ReactPlayer from 'react-player'
 
 
@@ -37,7 +38,7 @@ class Home extends Component {
                 <div className = "py-5 d-flex justify-content-center">
                     <div id = "border">
                         <ReactPlayer url='https://youtu.be/1KJ8vPuW36s' 
-                        playing = {false} 
+                        playing = {true} 
                         width={window.innerWidth*0.7} height={window.innerWidth * 0.39}/> 
                     </div>
                 </div>
@@ -56,7 +57,7 @@ class Home extends Component {
                     <h1 className="yaoti text-primary">實作體驗，創造成就</h1>
                 		<div className="row py-3">
                         <div className="col-md-6">
-                            <img src={img1} alt='' width="100%" />
+                            <img src={img2} alt='' width="100%" />
                         </div>
                         <div className="d-flex align-items-center col-md-6">
                             <blockquote className="d-block quote">為了讓孩子們有更深刻的學習，我們在三小時的課程中， 安排一個半小時至兩小時的體驗實作時間，讓孩子們能跳脫傳統教學方式由上而下的框架， 親自動手參與課程，遇到問題便想辦法解決，學習專業知識的過程亦培養解決問題的能力。</blockquote>

@@ -15,9 +15,11 @@ class Review extends Component {
         return(
             <div className = "review">  
                 <Timeline season = "2019-spring"/>
-                <ReactPlayer url='https://youtu.be/naSrw0-0SNk' 
+                <div classname = "d-flex justify-content-center">
+                    <ReactPlayer url='https://youtu.be/naSrw0-0SNk' 
                         playing = {true}
-                        width={window.innerWidth * 0.8} height={window.innerWidth * 0.8 * 0.56}/> 
+                        width={window.innerWidth * 0.7} height={window.innerWidth * 0.39}/> 
+                </div>
                 <img src = {schedule} className = "schedule" alt = ""/>
                 <img src = {schedule2} className = "schedule" alt = ""/>
                 <img src = {schedule3} className = "schedule" alt = ""/>

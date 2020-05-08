@@ -1,12 +1,9 @@
 # midterm_vocation-workshop-of-institution
 
-### 題目名稱
-直覺 X 職掘  職業體驗工作坊
-
-### 一句話描述這個 project 在做什麼
+### 直覺 X 職掘  職業體驗工作坊
 「職掘服務社」的工作坊介紹及活動報名網站
 
-### Deployed 連結
+### Deployed Link
 https://vocation-workshop-institution.herokuapp.com
 
 ### 使用/操作方式
